@@ -1,0 +1,11 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh'
+title = 'My New Hugo Site'
+theme = 'hello-friend'
+
+[params]
+ShowPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Hi"
+Content = "Abc"

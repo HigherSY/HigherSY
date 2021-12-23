@@ -1,0 +1,6 @@
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://hub.fastgit.org/adityatelange/hugo-PaperMod.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://hub.fastgit.org/panr/hugo-theme-hello-friend
