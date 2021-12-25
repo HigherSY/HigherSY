@@ -1,11 +1,19 @@
 baseURL = 'http://example.org/'
-languageCode = 'zh'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
 title = 'My New Hugo Site'
 theme = 'hello-friend'
 
 [params]
-ShowPostNavLinks = true
+  contentTypeName = "post"
+  defaultTheme = "light"
 
-[params.homeInfoParams]
-Title = "Hi"
-Content = "Abc"
+  showMenuItems = 2
+
+  toc = true
+
+[languages]
+  [languages.zh-cn]
+    title = "HigherSY 的世界"
+    subtitle = "生活 / 技术 / 碎碎念"
+
